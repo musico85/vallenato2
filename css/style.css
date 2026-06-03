@@ -12,7 +12,7 @@ body{
     position:absolute;
     left:-9999px;
     top:10px;
-    background:#48ad19;
+    background:#0d47a1;
     color:white;
     padding:10px;
     z-index:1000;
@@ -25,8 +25,8 @@ body{
 
 /* Header */
 header{
-    background-color:#5dade2;
-    color:#000000;
+    background-color:#1f4e79;
+    color:white;
     padding:20px;
     text-align:center;
 }
@@ -42,8 +42,8 @@ nav ul{
 
 nav a{
     text-decoration:none;
-    color:#ffffff;
-    background-color:#63af0c;
+    color:white;
+    background-color:#1565c0;
     padding:10px 15px;
     border-radius:8px;
     transition:0.3s;
@@ -51,7 +51,7 @@ nav a{
 
 /* Hover navegación */
 nav a:hover{
-    background-color:#1f618d;
+    background-color:#0d47a1;
     color:white;
 }
 
@@ -86,11 +86,11 @@ img:hover{
 }
 
 /* nth-child */
-.galeria img:nth-child(odd){
+.galeria div:nth-child(odd) img{
     border-radius:30px;
 }
 
-.galeria img:nth-child(even){
+.galeria div:nth-child(even) img{
     border-radius:5px;
 }
 
@@ -104,8 +104,8 @@ img:hover{
 
 /* Footer */
 footer{
-    background-color:#5dade2;
-    color:#000000;
+    background-color:#1f4e79;
+    color:white;
     text-align:center;
     padding:15px;
     margin-top:20px;
